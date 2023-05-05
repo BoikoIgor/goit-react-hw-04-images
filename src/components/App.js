@@ -106,6 +106,7 @@ export const App = () => {
       }
       setSearchValue(value);
       setGallery([]);
+      setPage(1);
     } catch (err) {
       alert(err.message);
     }
